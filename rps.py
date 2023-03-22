@@ -5,7 +5,7 @@ choices=["paper","rock","scessors"]
 while True:
     player_ch=input("please enter 1 to 3:")
     if(int(player_ch) >3):
-        break
+        continue
 
     player_choice=choices[int(player_ch)-1]
     computer_choice=random.choice(choices)
