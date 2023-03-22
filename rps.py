@@ -13,6 +13,7 @@ def player_choice():
 
 
 while True:
+    player_choice=player_choice()
     computer_choice=random.choice(choices)
     if(player_choice==computer_choice):
         print(f"you are tie! your choice:{player_choice}\n computer:{computer_choice}")
